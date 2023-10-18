@@ -1,1 +1,5 @@
-# MSSQL-Project
+**<h1 style="text-align: left;">![image](MSSQL_project/1.png)</h1>**
+**<h1 style="text-align: center;"> MSSQL Data Exploration Project</h1>**
+
+## Overview
+In this Portfolio Project, I performed Data exploration on COVID-19 deaths and vaccination data in SSMS using T-SQL. The Aim of this exploration is to understand the dat so we can then make a dashboard in tableau or power BI to further understand patterns and trends in the data.  I first Explored The likelihood of dying if you get infected in any country. Then I explored What percent of population got infected with COVID in any given country. Then I looked at the countries with the highest infection rate, after similar exploration by countries and continents and also looking at global numbers I brought in the vaccination data. I Inner Joined the death and vaccination data on location and date as there were no other unique ids. Then I calculated vaccination percentage using Common Table Expression or CTE and using temporary table or TEMP Table. Finally I created views so I could visualize my results and explore further trends in the data.
